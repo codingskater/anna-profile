@@ -9,8 +9,22 @@ function App() {
   return (
     <>
       <div>
-        <h1>Welcome to My Portfolio!</h1>
-        <h2>(in progress)</h2>
+        <h1>
+          Greetings! The name's Anna Costello!
+        </h1>
+        <h2>
+          I'm an American software developer based in the Tokyo Metropolitan Area.<br />
+          Specifically, I'm a front-end developer with full-stack capabilities.
+        </h2>
+        <h3>
+          Projects
+        </h3>
+        <h3>
+          Skills
+        </h3>
+        <h3>
+          Contact
+        </h3>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
