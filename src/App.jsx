@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Projects from './Projects.jsx'
+import Skills from './Skills.jsx'
+import Contact from './Contact.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,9 +25,11 @@ function App() {
         </h3>
         <h3>
           Skills
+          <Skills />
         </h3>
         <h3>
           Contact
+          <Contact />
         </h3>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
