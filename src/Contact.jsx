@@ -1,5 +1,13 @@
 function Contact() {
-  return <div>This will list my contact information</div>
+
+  const email = "example@example.com"
+  return (
+    <div>
+      <ul>
+        <li>Email: {email}</li>
+      </ul>
+    </div>
+  )
 }
 
 export default Contact
